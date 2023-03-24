@@ -1,0 +1,308 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Sun Mar 19 13:50:10 2023
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/Utilisateur/Desktop/SDL2/SDL2 - Copie
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"fr-fr","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\Utilisateur\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\UTILIS~1\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\Utilisateur\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python39\pythonw.exe;C:\Program Files\Java\jdk-15.0.2\bin;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Ruby31-x64\bin;C:\Ruby30\bin;C:\Ruby27-x64\bin;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python39;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Utilisateur\Downloads\chromedriver_win32;C:\Users\Utilisateur\AppData\Local\atom\bin;C:\Users\Utilisateur\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Utilisateur\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Utilisateur\AppData\Roaming\npm;C:\vclib\SDL2_image-2.0.5\lib\x64;C:\Users\Utilisateur\AppData\Local\Microsoft\WindowsApps;C:\Hugo\bin;C:\texlive\2022\bin\win32
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\Utilisateur
+# environment
+RUBYOPT = -Eutf-8
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_21668_NOJEHDHBHXWRNYPT
+# environment
+COMPUTERNAME = ORACLE
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Utilisateur
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Utilisateur\AppData\Roaming\Code\CachedData\ee2b180d582a7f601fa6ecfdad8d9fd269ab1884
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\ORACLE
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = ORACLE
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk-15.0.2
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := all
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\Utilisateur\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\e5af54b8ea1516f3b78de682dcec79f7-1.76.2-main-sock
+# environment
+HOMEPATH = \Users\Utilisateur
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\Utilisateur\AppData\Roaming
+# environment
+TEMP = C:\Users\UTILIS~1\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 7e05
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 21668
+# environment
+USERDOMAIN_ROAMINGPROFILE = ORACLE
+# variable set hash-table stats:
+# Load=91/1024=9%, Rehash=0, Collisions=11/113=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Users\Utilisateur\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Utilisateur/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1679070174): 5 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1647551955): 34 files, no impossibilities.
+# . (key c:/Users/Utilisateur/Desktop/SDL2/SDL2 - Copie, mtime 1679217063): 27 files, no impossibilities.
+# C:\Users\Utilisateur\AppData\Local\Programs\Python\Python39\pythonw.exe (key C:/Users/Utilisateur/AppData/Local/Programs/Python/Python39/pythonw.exe, mtime 1607361146): could not be opened.
+# C:\Hugo\bin (key C:/Hugo/bin, mtime 1656865685): 5 files, no impossibilities.
+# C:\Program Files (x86)\dotnet\ (key C:/Program Files (x86)/dotnet/, mtime 1677517237): 8 f 
+iles, no impossibilities.
+# C:\texlive\2022\bin\win32 (key C:/texlive/2022/bin/win32, mtime 1672055736): 558 files, no impossibilities.
+# C:\Program Files\Java\jdk-15.0.2\bin (key C:/Program Files/Java/jdk-15.0.2/bin, mtime 1611161929): 124 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1628588078): 8 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1637512726): 10 files, no impossibilities.
+# C:\Users\Utilisateur\AppData\Local\Programs\Python\Python39 (key C:/Users/Utilisateur/AppData/Local/Programs/Python/Python39, mtime 1612608562): 18 files, no impossibilities.
+# C:\Ruby30\bin (key C:/Ruby30/bin, mtime 1656429645): 49 files, no impossibilities.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1679161229): 144 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1678568439): 136 files, no impossibilities.
+# C:\Users\Utilisateur\AppData\Local\atom\bin (key C:/Users/Utilisateur/AppData/Local/atom/bin, mtime 1612982383): 6 files, no impossibilities.
+# C:\Users\Utilisateur\Downloads\chromedriver_win32: could not be stat'd.
+# C:\Users\Utilisateur\AppData\Local\Programs\Python\Python39\Scripts (key C:/Users/Utilisateur/AppData/Local/Programs/Python/Python39/Scripts, mtime 1676905125): 15 files, no impossibilities.
+# C:\Ruby27-x64\bin (key C:/Ruby27-x64/bin, mtime 1628928112): 60 files, no impossibilities.
+# C:\vclib\SDL2_image-2.0.5\lib\x64: could not be stat'd.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1678033124): 157 files, no impossibilities.
+# C:\Users\Utilisateur\AppData\Roaming\npm (key C:/Users/Utilisateur/AppData/Roaming/npm, mtime 1628777639): 12 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1623508396): 11 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1679161851): 2951 files, no impossibilities.
+# C:\Program Files\Microsoft VS Code\bin (key C:/Program Files/Microsoft VS Code/bin, mtime 1630755477): 4 files, no impossibilities.
+# C:\Users\Utilisateur\AppData\Local\Microsoft\WindowsApps (key C:/Users/Utilisateur/AppData/Local/Microsoft/WindowsApps, mtime 1679052588): 32 files, no impossibilities.
+# C:\Ruby31-x64\bin (key C:/Ruby31-x64/bin, mtime 1661001166): 49 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# C:\Users\Utilisateur\AppData\Local\GitHubDesktop\bin (key C:/Users/Utilisateur/AppData/Local/GitHubDesktop/bin, mtime 1618415167): 4 files, no impossibilities.
+
+# 4427 files, no impossibilities in 28 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 2):
+	g++ -I src/include -L src/lib -o main main.cpp TextureManager.cpp Game.cpp Map.cpp GameObject.cpp Vector2D.cpp Collision.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-20 20:03:38
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=4/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 8 (7) / strings = 4270 / storage = 63234 B / avg = 14 B
+# current buf: size = 8174 B / used = 6073 B / count = 470 / avg = 12 B
+# other used: total = 55060 B / count = 3800 / avg = 14 B
+# other free: total = 57 B / max = 11 B / min = 3 B / avg = 8 B
+
+# strcache performance: lookups = 4464 / hit rate = 4%
+# hash-table stats:
+# Load=4270/8192=52%, Rehash=0, Collisions=1982/4464=44%
+# Finished Make data base on Sun Mar 19 13:50:10 2023
+
+ 

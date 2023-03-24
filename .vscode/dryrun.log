@@ -1,0 +1,5 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'c:/Users/Utilisateur/Desktop/SDL2/SDL2 - Copie'
+g++ -I src/include -L src/lib -o main main.cpp TextureManager.cpp Game.cpp Map.cpp GameObject.cpp Vector2D.cpp Collision.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
+make.exe: Leaving directory 'c:/Users/Utilisateur/Desktop/SDL2/SDL2 - Copie'
+ 
